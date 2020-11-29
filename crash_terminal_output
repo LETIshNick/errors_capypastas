@@ -1,0 +1,296 @@
+... $ /Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/dhewm3.app/Contents/MacOS/dhewm3 ; exit;
+dhewm3 1.5.1rc2.1304 macosx-x86_64 Oct 30 2020 15:06:40 using SDL v2.0.12
+WARNING: terminal type 'xterm-256color' is unknown. terminal support may not work correctly
+terminal support enabled ( use +set in_tty 0 to disable )
+pid: 34557
+2047 MB System Memory
+found interface lo0 - loopback
+found interface en1 - 10.30.204.208/255.255.248.0
+doom using MMX & SSE & SSE2 & SSE3 for SIMD processing
+enabling Flush-To-Zero mode
+enabling Denormals-Are-Zero mode
+----- Initializing File System -----
+Loaded pk4 /Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak000.pk4 with checksum 0x28d208f1
+Loaded pk4 /Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak001.pk4 with checksum 0x40244be0
+Loaded pk4 /Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak002.pk4 with checksum 0xc51ecdcd
+Loaded pk4 /Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak003.pk4 with checksum 0xcd79d028
+Loaded pk4 /Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak004.pk4 with checksum 0x765e4f8b
+Loaded pk4 /Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak005.pk4 with checksum 0x8ffc3621
+Loaded pk4 /Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak006.pk4 with checksum 0x95b65ab
+Loaded pk4 /Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak007.pk4 with checksum 0x666bdb3c
+Loaded pk4 /Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak008.pk4 with checksum 0x23ae5993
+Current search path:
+/Users/lain/Library/Application Support/dhewm3/base
+/Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base
+/Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak008.pk4 (3 files)
+/Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak007.pk4 (38 files)
+/Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak006.pk4 (48 files)
+/Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak005.pk4 (63 files)
+/Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak004.pk4 (5137 files)
+/Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak003.pk4 (4676 files)
+/Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak002.pk4 (6120 files)
+/Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak001.pk4 (8972 files)
+/Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak000.pk4 (2698 files)
+Addon pk4s:
+----- Initializing Decls -----
+5206 strings read from strings/english.lang
+Couldn't open journal files
+execing editor.cfg
+execing default.cfg
+execing dhewm.cfg
+execing autoexec.cfg
+5206 strings read from strings/english.lang
+----- Initializing OpenAL -----
+Setup OpenAL device and context
+OpenAL vendor: Apple Computer Inc.
+OpenAL renderer: Software
+OpenAL version: 1.1
+OpenAL: EFX extension not found
+OpenAL: found 256 hardware voices
+----- Initializing OpenGL -----
+Initializing OpenGL subsystem
+Using 8 color bits, 24 depth, 8 stencil display
+OpenGL vendor: Intel Inc.
+OpenGL renderer: Intel HD Graphics 3000 OpenGL Engine
+OpenGL version: 2.1 INTEL-10.4.14
+...using GL_ARB_multitexture
+...using GL_ARB_texture_env_combine
+...using GL_ARB_texture_cube_map
+...using GL_ARB_texture_env_dot3
+...using GL_ARB_texture_env_add
+...using GL_ARB_texture_non_power_of_two
+...using GL_ARB_texture_compression
+...using GL_EXT_texture_compression_s3tc
+...using GL_EXT_texture_filter_anisotropic
+   maxTextureAnisotropy: 16.000000
+...using GL_1.4_texture_lod_bias
+X..GL_EXT_shared_texture_palette not found
+X..GL_EXT_texture3D not found
+...using GL_EXT_stencil_wrap
+...using GL_EXT_stencil_two_side
+... got GL2.0+ glStencilOpSeparate()
+...using GL_ARB_vertex_buffer_object
+...using GL_ARB_vertex_program
+...using GL_ARB_fragment_program
+X..EXT_depth_bounds_test not found
+ARB2 renderer: Available.
+----- R_ReloadARBPrograms -----
+glprogs/test.vfp
+glprogs/test.vfp
+glprogs/interaction.vfp
+glprogs/interaction.vfp
+glprogs/bumpyEnvironment.vfp
+glprogs/bumpyEnvironment.vfp
+glprogs/ambientLight.vfp
+glprogs/ambientLight.vfp
+glprogs/shadow.vp
+glprogs/environment.vfp
+glprogs/environment.vfp
+glprogs/arbVP_glasswarp.txt: File not found
+glprogs/arbFP_glasswarp.txt: File not found
+using ARB_vertex_buffer_object memory
+using ARB2 renderSystem
+loaded game library '/Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base.dylib'.
+game using MMX & SSE & SSE2 & SSE3 for SIMD processing
+Flush-To-Zero mode is already enabled
+Denormals-Are-Zero mode is already enabled
+----- Initializing Game -----
+gamename: baseDOOM-1
+gamedate: Oct 30 2020
+Initializing event system
+...473 event definitions
+Initializing class hierarchy
+...142 classes, 764368 bytes for event callbacks
+Initializing scripts
+Compiled '?': 813 ms
+----- Compile stats -----
+Memory usage:
+     Strings: 79, 13232 bytes
+  Statements: 67875, 2715000 bytes
+   Functions: 2109, 318020 bytes
+   Variables: 170888 bytes
+    Mem used: 4483712 bytes
+ Static data: 4214344 bytes
+   Allocated: 5768260 bytes
+ Thread size: 14056 bytes
+...6 aas types
+----- Initializing Session -----
+============= ReloadEngine start =============
+----- Game Map Shutdown -----
+Shutting down sound hardware
+idRenderSystem::Shutdown()
+Shutting down OpenGL subsystem
+----- Game Shutdown -----
+----- Game Map Shutdown -----
+Shutdown event system
+----- Initializing File System -----
+Loaded pk4 /Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak000.pk4 with checksum 0x28d208f1
+Loaded pk4 /Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak001.pk4 with checksum 0x40244be0
+Loaded pk4 /Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak002.pk4 with checksum 0xc51ecdcd
+Loaded pk4 /Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak003.pk4 with checksum 0xcd79d028
+Loaded pk4 /Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak004.pk4 with checksum 0x765e4f8b
+Loaded pk4 /Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak005.pk4 with checksum 0x8ffc3621
+Loaded pk4 /Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak006.pk4 with checksum 0x95b65ab
+Loaded pk4 /Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak007.pk4 with checksum 0x666bdb3c
+Loaded pk4 /Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak008.pk4 with checksum 0x23ae5993
+Loaded pk4 /Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/d3xp/pak000.pk4 with checksum 0x3003a1eb
+Loaded pk4 /Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/d3xp/pak001.pk4 with checksum 0x38a5e7d5
+Current search path:
+/Users/lain/Library/Application Support/dhewm3/d3xp
+/Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/d3xp
+/Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/d3xp/pak001.pk4 (24 files)
+/Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/d3xp/pak000.pk4 (5186 files)
+/Users/lain/Library/Application Support/dhewm3/base
+/Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base
+/Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak008.pk4 (3 files)
+/Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak007.pk4 (38 files)
+/Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak006.pk4 (48 files)
+/Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak005.pk4 (63 files)
+/Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak004.pk4 (5137 files)
+/Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak003.pk4 (4676 files)
+/Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak002.pk4 (6120 files)
+/Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak001.pk4 (8972 files)
+/Volumes/vertex/Games/dhewm/dhewm3-1.5.1_RC2/base/pak000.pk4 (2698 files)
+Addon pk4s:
+----- Initializing Decls -----
+WARNING: file materials/d3xpmp.mtr, line 200: material 'models/characters/player/arm2_invis' previously defined at materials/characters.mtr:1807
+WARNING: file materials/d3xppatrick.mtr, line 404: material 'models/mapobjects/ruins/balcony_c2_filter' previously defined at materials/d3xppatrick.mtr:354
+WARNING: file materials/models_characters.mtr, line 324: material 'models/characters/common/mcneilrightgreen' previously defined at materials/char_common2.mtr:1
+WARNING: file materials/models_characters.mtr, line 337: material 'models/characters/common/mcneilleftgreen' previously defined at materials/char_common2.mtr:15
+WARNING: file materials/object.mtr, line 1132: material 'textures/object/a_tecpipe1yel' previously defined at materials/d3xpobject.mtr:7
+WARNING: file materials/object.mtr, line 1140: material 'textures/object/a_tecpipe1red' previously defined at materials/d3xpobject.mtr:1
+WARNING: file materials/object.mtr, line 1148: material 'textures/object/a_tecpipe2blu' previously defined at materials/d3xpobject.mtr:15
+WARNING: file materials/object.mtr, line 1156: material 'textures/object/a_tecpipe2grn' previously defined at materials/d3xpobject.mtr:23
+WARNING: file materials/object.mtr, line 1164: material 'textures/object/a_tecpipe2sil' previously defined at materials/d3xpobject.mtr:31
+WARNING: file materials/patrick_d3ex.mtr, line 33: material 'textures/base_wall/a_lfwall15_' previously defined at materials/d3xppatrick.mtr:2
+WARNING: file materials/patrick_d3ex.mtr, line 52: material 'textures/sfx/water' previously defined at materials/d3xppatrick.mtr:14
+WARNING: file materials/patrick_d3ex.mtr, line 901: material 'textures/caves/pbricks5' previously defined at materials/patrick_d3ex.mtr:810
+WARNING: file materials/patricktest.mtr, line 3062: material 'textures/hell/bacteria_1_d' previously defined at materials/patrick_d3ex.mtr:461
+WARNING: file materials/patricktest.mtr, line 3092: material 'textures/hell/bacteria_2_d' previously defined at materials/patrick_d3ex.mtr:492
+WARNING: file materials/patricktest.mtr, line 3122: material 'textures/hell/bacteria_3_d' previously defined at materials/patrick_d3ex.mtr:522
+WARNING: file materials/patricktest.mtr, line 3151: material 'textures/hell/bacteria_4' previously defined at materials/patrick_d3ex.mtr:552
+WARNING: file materials/patricktest.mtr, line 3179: material 'textures/hell/bacteria_5' previously defined at materials/patrick_d3ex.mtr:581
+WARNING: file materials/patricktest.mtr, line 3209: material 'textures/hell/bacteria_6' previously defined at materials/patrick_d3ex.mtr:609
+WARNING: file materials/patricktest.mtr, line 3239: material 'textures/hell/burnedfly' previously defined at materials/patrick_d3ex.mtr:639
+WARNING: file sound/d3xp.sndshd, line 24: sound 'teleport_in' previously defined at sound/actions.sndshd:535
+WARNING: file sound/tele_in.sndshd, line 12: sound 'monster_teleport_in' previously defined at sound/d3xp.sndshd:24
+WARNING: file sound/tele_in.sndshd, line 22: sound 'teleport_fade_out' previously defined at sound/d3xp.sndshd:34
+WARNING: file sound/tele_in.sndshd, line 32: sound 'teleport_upper_explosion' previously defined at sound/d3xp.sndshd:44
+WARNING: file sound/tele_in.sndshd, line 42: sound 'teleport_lightning' previously defined at sound/d3xp.sndshd:54
+WARNING: file sound/tele_in.sndshd, line 52: sound 'teleport_lower_explosion' previously defined at sound/d3xp.sndshd:64
+WARNING: file sound/tele_in.sndshd, line 62: sound 'teleport_full' previously defined at sound/d3xp.sndshd:74
+WARNING: file sound/tele_in.sndshd, line 72: sound 'teleport_full_1s' previously defined at sound/d3xp.sndshd:84
+WARNING: file sound/tele_in.sndshd, line 82: sound 'teleport_full_2s' previously defined at sound/d3xp.sndshd:94
+WARNING: file sound/tele_in.sndshd, line 92: sound 'teleport_full_3s' previously defined at sound/d3xp.sndshd:104
+5206 strings read from strings/english.lang
+6257 strings read from strings/english001.lang
+6351 strings read from strings/englishctf.lang
+Couldn't open journal files
+execing editor.cfg
+execing default.cfg
+execing dhewm.cfg
+execing autoexec.cfg
+5206 strings read from strings/english.lang
+6257 strings read from strings/english001.lang
+6351 strings read from strings/englishctf.lang
+----- Initializing OpenAL -----
+Setup OpenAL device and context
+OpenAL vendor: Apple Computer Inc.
+OpenAL renderer: Software
+OpenAL version: 1.1
+OpenAL: EFX extension not found
+OpenAL: found 256 hardware voices
+----- Initializing OpenGL -----
+Initializing OpenGL subsystem
+Using 8 color bits, 24 depth, 8 stencil display
+OpenGL vendor: Intel Inc.
+OpenGL renderer: Intel HD Graphics 3000 OpenGL Engine
+OpenGL version: 2.1 INTEL-10.4.14
+...using GL_ARB_multitexture
+...using GL_ARB_texture_env_combine
+...using GL_ARB_texture_cube_map
+...using GL_ARB_texture_env_dot3
+...using GL_ARB_texture_env_add
+...using GL_ARB_texture_non_power_of_two
+...using GL_ARB_texture_compression
+...using GL_EXT_texture_compression_s3tc
+...using GL_EXT_texture_filter_anisotropic
+   maxTextureAnisotropy: 16.000000
+...using GL_1.4_texture_lod_bias
+X..GL_EXT_shared_texture_palette not found
+X..GL_EXT_texture3D not found
+...using GL_EXT_stencil_wrap
+...using GL_EXT_stencil_two_side
+... got GL2.0+ glStencilOpSeparate()
+...using GL_ARB_vertex_buffer_object
+...using GL_ARB_vertex_program
+...using GL_ARB_fragment_program
+X..EXT_depth_bounds_test not found
+ARB2 renderer: Available.
+----- R_ReloadARBPrograms -----
+glprogs/test.vfp
+glprogs/test.vfp
+glprogs/interaction.vfp
+glprogs/interaction.vfp
+glprogs/bumpyEnvironment.vfp
+glprogs/bumpyEnvironment.vfp
+glprogs/ambientLight.vfp
+glprogs/ambientLight.vfp
+glprogs/shadow.vp
+glprogs/environment.vfp
+glprogs/environment.vfp
+glprogs/arbVP_glasswarp.txt
+glprogs/arbFP_glasswarp.txt
+using ARB_vertex_buffer_object memory
+using ARB2 renderSystem
+Looks like dhewm3 1.5.1rc2 crashed with signal SIGSEGV (11) - sorry!
+
+Backtrace:
+  0   dhewm3                              0x0000000101d8b660 _ZL18signalhandlerCrashi + 112
+  1   libsystem_platform.dylib            0x00007fff7cadff5a _sigtramp + 26
+  2   ???                                 0xffffffffffffffff 0x0 + 18446744073709551615
+  3   libGLImage.dylib                    0x00007fff5e169d53 glgProcessPixelsWithProcessor + 2307
+  4   GLEngine                            0x00007fff5ee0ff73 gleTextureImagePut + 1129
+  5   GLEngine                            0x00007fff5eceaeb4 glTexImage2D_Exec + 1511
+  6   libGL.dylib                         0x00007fff5e15963f glTexImage2D + 59
+  7   dhewm3                              0x0000000101bace60 _ZN7idImage24UploadPrecompressedImageEPhi + 848
+  8   dhewm3                              0x0000000101bacaf3 _ZN7idImage23CheckPrecompressedImageEb + 595
+  9   dhewm3                              0x0000000101bacfa0 _ZN7idImage17ActuallyLoadImageEbb + 64
+  10  dhewm3                              0x0000000101ba2c2e _ZN7idImage6Reload  15  dhewm3                              0x0000000101c4ab1b _Z18Com_ReloadEngine_fRK9idCmdArgs + 107
+  16  dhewm3                              0x0000000101c47101 _ZN16idCmdSystemLocal20ExecuteCommandBufferEv + 465
+  17  dhewm3                              0x0000000101c7a6f3 _ZN11idEventLoop12RunEventLoopEb + 83
+  18  dhewm3                              0x0000000101c51bc5 _ZN13idCommonLocal5FrameEv + 213
+  19  dhewm3                              0x0000000101d8d979 SDL_main + 265
+  20  dhewm3                              0x0000000101d8dd41 -[SDLMain applicationDidFinishLaunching:] + 49
+  21  CoreFoundation                      0x00007fff5479e39c __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__ + 12
+  22  CoreFoundation                      0x00007fff5479e26a _CFXRegistrationPost + 458
+  23  CoreFoundation                      0x00007fff5479dfa1 ___CFXNotificationPost_block_invoke + 225
+  24  CoreFoundation                      0x00007fff5475cb32 -[_CFXNotificationRegistrar find:object:observer:enumerator:] + 1826
+  25  CoreFoundation                      0x00007fff5475bbc3 _CFXNotificationPost + 659
+  26  Foundation                          0x00007fff5688a047 -[NSNotificationCenter postNotificationName:object:userInfo:] + 66
+  27  AppKit                              0x00007fff51e48206 -[NSApplication _postDidFinishNotification] + 313
+  28  AppKit                              0x00007fff51e47e4f -[NSApplication _sendFinishLaunchingNotification] + 220
+  29  AppKit                              0x00007fff51d1aa7b -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:] + 562
+  30  AppKit                              0x00007fff51d1a6b1 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:] + 690
+  31  Foundation                          0x00007fff568ccef4 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:] + 287
+  32  Foundation                          0x00007fff568ccd72 _NSAppleEventManagerGenericHandler + 102
+  33  AE                                  0x00007fff558a4f08 _Z20aeDispatchAppleEventPK6AEDescPS_jPh + 1788
+  34  AE                                  0x00007fff558a47af _ZL25dispatchEventAndSendReplyPK6AEDescPS_ + 41
+  35  AE                                  0x00007fff558a469d aeProcessAppleEvent + 383
+  36  HIToolbox                           0x00007fff53a784a0 AEProcessAppleEvent + 55
+  37  AppKit                              0x00007fff51d15cfa _DPSNextEvent + 2788
+  38  AppKit                              0x00007fff524abe34 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:] + 3044
+  39  AppKit                              0x00007fff51d0a84d -[NSApplication run] + 764
+  40  dhewm3                              0x0000000101d8e4c7 main + 1639
+  41  libdyld.dylib                       0x00007fff7c7d1015 start + 1
+  42  ???                                 0x0000000000000001 0x0 + 1
+
+Segmentation fault: 11
+logout
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+Deleting expired sessions...19 completed.
+
+[Процесс завершен]
