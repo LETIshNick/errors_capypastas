@@ -1,2 +1,2 @@
-# errors_capypastas
+# errors_copypastas
 Here I put crash reports
